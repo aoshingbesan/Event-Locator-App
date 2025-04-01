@@ -1,0 +1,19 @@
+{
+    "welcome": "Welcome to the Event Locator API",
+    "eventCreated": "Event created successfully",
+    "eventUpdated": "Event updated successfully",
+    "eventDeleted": "Event deleted successfully",
+    "userRegistered": "User registered successfully",
+    "profileUpdated": "Profile updated successfully",
+    "passwordChanged": "Password changed successfully",
+    "eventFavorited": "Event added to favorites",
+    "eventUnfavorited": "Event removed from favorites",
+    "reviewAdded": "Review added successfully",
+    "notificationSettings": "Notification settings updated",
+    "serverError": "Server error occurred",
+    "notFound": "Resource not found",
+    "unauthorized": "Unauthorized access",
+    "badRequest": "Bad request",
+    "validationError": "Validation error",
+    "categoriesUpdated": "Categories updated successfully"
+  }

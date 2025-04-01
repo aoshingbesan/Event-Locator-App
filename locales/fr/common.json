@@ -1,0 +1,19 @@
+{
+    "welcome": "Bienvenue à l'API Event Locator",
+    "eventCreated": "Événement créé avec succès",
+    "eventUpdated": "Événement mis à jour avec succès",
+    "eventDeleted": "Événement supprimé avec succès",
+    "userRegistered": "Utilisateur enregistré avec succès",
+    "profileUpdated": "Profil mis à jour avec succès",
+    "passwordChanged": "Mot de passe changé avec succès",
+    "eventFavorited": "Événement ajouté aux favoris",
+    "eventUnfavorited": "Événement retiré des favoris",
+    "reviewAdded": "Avis ajouté avec succès",
+    "notificationSettings": "Paramètres de notification mis à jour",
+    "serverError": "Erreur du serveur survenue",
+    "notFound": "Ressource non trouvée",
+    "unauthorized": "Accès non autorisé",
+    "badRequest": "Mauvaise requête",
+    "validationError": "Erreur de validation",
+    "categoriesUpdated": "Catégories mises à jour avec succès"
+  }
