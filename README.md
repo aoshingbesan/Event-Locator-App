@@ -167,18 +167,47 @@ Test categories include:
 
 ```
 event-locator-app/
-├── server.js                  # Main application entry point
-├── database-schema.sql        # SQL schema definition
-├── docker-compose.yml         # Docker configuration
-├── package.json               # Project dependencies
-├── swagger.js                 # Swagger configuration
-├── tests/                     # Test files
-│   ├── unit/                  # Unit tests
-│   │   ├── auth.test.js       # Authentication tests
-│   │   ├── events.test.js     # Event management tests
-│   │   ├── location.test.js   # Location search tests
-│   │   └── i18n.test.js       # Multilingual support tests
-└── node_modules/              # Installed packages
+├── config/                     # Configuration files
+│   ├── database.js             # Database configuration
+│   ├── passport.js             # Passport.js configuration
+│   └── queue.js                # Message queue configuration
+├── controllers/                # Route controllers
+│   ├── authController.js       # Authentication controller
+│   ├── eventController.js      # Event management controller
+│   ├── searchController.js     # Search functionality controller
+│   └── userController.js       # User management controller
+├── middlewares/                # Custom middleware functions
+│   ├── auth.js                 # Authentication middleware
+│   └── i18n.js                 # Internationalization middleware
+├── models/                     # Database models
+│   ├── Event.js                # Event model
+│   ├── User.js                 # User model
+│   └── Category.js             # Category model
+├── routes/                     # API routes
+│   ├── auth.js                 # Authentication routes
+│   ├── events.js               # Event routes
+│   ├── search.js               # Search routes
+│   └── users.js                # User routes
+├── services/                   # Business logic
+│   ├── eventService.js         # Event-related services
+│   ├── notificationService.js  # Notification handling
+│   ├── searchService.js        # Search functionality
+│   └── userService.js          # User-related services
+├── utils/                      # Utility functions
+│   ├── errorHandler.js         # Error handling utilities
+│   ├── geoUtils.js             # Geospatial utilities
+│   └── validators.js           # Validation utilities
+├── locales/                    # Translation files
+│   ├── en/                     # English translations
+│   └── fr/                     # French translations (add more as needed)
+├── tests/                      # Test files
+│   └── unit/                   # Unit tests
+├── .env                        # Environment variables
+├── .gitignore                  # Git ignore file
+├── app.js                      # Express app setup
+├── server.js                   # Server entry point
+├── package.json                # Project dependencies
+└── README.md                   # Project documentation
 ```
 
 ## Implementation Details
